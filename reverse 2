@@ -1,0 +1,11 @@
+ class W1 {
+    public static void main(String[] args) {
+int n = 987987;
+int s = 0;
+ while (n>0){
+   int  l = n%10;
+    s = s * 10 +(l);
+    n = n/10;
+ }
+ System.out.println("the reverse of the number is  "+ s);
+}
